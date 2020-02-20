@@ -52,7 +52,7 @@ import argparse
 import ehtim as eh
 import numpy as np
 import matplotlib
-
+matplotlib.use("Agg")
 #-------------------------------------------------------------------------------
 # Load command-line arguments
 #-------------------------------------------------------------------------------
